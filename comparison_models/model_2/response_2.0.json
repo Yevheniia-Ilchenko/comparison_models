@@ -1,0 +1,140 @@
+{
+    "status": "completed",
+    "message": {
+      "account_id": "security-team@company.com",
+      "entity_id": "all-employees@company.com",
+      "keywords_named_entities": [
+        "cloud storage",
+        "PST",
+        "GDPR",
+        "Chief Information Security Officer",
+        "CCPA",
+        "Sarah Johnson",
+        "VPN access",
+        "internal applications",
+        "Biometric verification",
+        "October",
+        "Company Name",
+        "Enhanced Authentication Measures",
+        "Self-Service Portal",
+        "Email servers",
+        "Security Team",
+        "anomaly detection system"
+      ],
+      "knots_from_section": [
+        [
+          "cloud storage",
+          "PST",
+          "VPN access",
+          "internal applications",
+          "Email servers"
+        ],
+        [
+          "GDPR",
+          "CCPA",
+          "Biometric verification",
+          "Enhanced Authentication Measures",
+          "anomaly detection system"
+        ],
+        [
+          "Self-Service Portal",
+          "Security Team"
+        ]
+      ],
+      "knots_from_paragraph": [
+        [
+          "VPN access",
+          "cloud storage",
+          "internal applications",
+          "Email servers"
+        ],
+        [
+          "Enhanced Authentication Measures"
+        ],
+        [
+          "CCPA",
+          "GDPR"
+        ],
+        [
+          "Self-Service Portal",
+          "Security Team"
+        ],
+        [
+          "Sarah Johnson",
+          "Company Name",
+          "Chief Information Security Officer"
+        ]
+      ],
+      "denoised_email": "Annual Security Protocol Update - 2023\n\nDear Team Members,\n\nWe are reaching out to inform you about the annual security protocol update that will be implemented across all company systems and devices. This update is essential to maintain our cybersecurity standards and protect sensitive information from emerging threats.\n\nUPDATE SCHEDULE:\n* Implementation Date: Monday, October 16, 2023\n* Deployment Time: 8:00 PM - 2:00 AM PST\n* Affected Systems: Email servers, VPN access, cloud storage, and internal applications\n* Expected Downtime: Maximum 4 hours per system (staggered implementation)\n\nIMPROVEMENTS:\n* Enhanced Authentication Measures: architecture implementation\n* Biometric verification options for sensitive systems\n* Conditional access policies based on device health and location\n* Detection Upgrades: anomaly detection system\n* Real-time threat intelligence integration\n* Expanded monitoring of shadow IT resources\n* Enhancements: GDPR and CCPA compliance checks\n* Improved data classification system\n* Enhanced audit logging and reporting capabilities\n\nRESOURCES:\n* Security Team Hotline: Available 24/7 at 1-888-555-7890\n* Email Support:\n* Self-Service Portal:\n\nWe have scheduled department-specific training sessions on October 18-20 to cover the new security features and answer any questions. Your department head will share the exact schedule for your team.\n\nWe understand that security updates can sometimes cause temporary inconvenience, but these measures are critical to protecting our organization's data and infrastructure. We appreciate your cooperation in maintaining our strong security posture.\n\nThank you for your continued commitment to our security protocols.\n\nBest regards,\n\nSarah Johnson\nChief Information Security Officer\nCompany Name\n",
+      "model_info": {
+        "name": "gemini-2.0-flash-lite",
+        "tokens": {
+          "input": 2554,
+          "output": 630,
+          "total": 3184
+        },
+        "cost": 0.000368,
+        "is_exact_count": false
+      },
+      "results": [
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "VPN access",
+                "cloud storage",
+                "internal applications",
+                "Email servers"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "Enhanced Authentication Measures"
+              ]
+            },
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "CCPA",
+                "GDPR"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "Self-Service Portal",
+                "Security Team"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "Sarah Johnson",
+                "Company Name",
+                "Chief Information Security Officer"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+  

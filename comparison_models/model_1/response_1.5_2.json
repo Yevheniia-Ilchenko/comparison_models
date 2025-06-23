@@ -1,0 +1,125 @@
+{
+    "status": "completed",
+    "message": {
+      "account_id": "security-team@company.com",
+      "entity_id": "all-employees@company.com",
+      "keywords_named_entities": [
+        "Email servers",
+        "Security Team",
+        "CCPA",
+        "Biometric verification",
+        "cloud storage",
+        "Annual Security Protocol Update",
+        "internal applications",
+        "GDPR",
+        "VPN access"
+      ],
+      "knots_from_section": [
+        [
+          "Annual Security Protocol Update"
+        ],
+        [
+          "Email servers",
+          "cloud storage",
+          "VPN access",
+          "internal applications"
+        ],
+        [
+          "Biometric verification",
+          "GDPR",
+          "CCPA"
+        ],
+        [
+          "Security Team"
+        ]
+      ],
+      "knots_from_paragraph": [
+        [
+          "Annual Security Protocol Update"
+        ],
+        [
+          "Email servers",
+          "cloud storage",
+          "VPN access",
+          "internal applications"
+        ],
+        [
+          "Biometric verification"
+        ],
+        [
+          "GDPR",
+          "CCPA"
+        ],
+        [
+          "Security Team"
+        ]
+      ],
+      "denoised_email": "Annual Security Protocol Update - 2023\n\nDear Team Members,\n\nWe are reaching out to inform you about the annual security protocol update that will be implemented across all company systems and devices. This update is essential to maintain our cybersecurity standards and protect sensitive information from emerging threats.\n\nUPDATE SCHEDULE:\n\nImplementation Date: Monday, October 16, 2023\nDeployment Time: 8:00 PM - 2:00 AM PST\nAffected Systems: Email servers, VPN access, cloud storage, and internal applications\nExpected Downtime: Maximum 4 hours per system (staggered implementation)\n\nACTIONS:\n\nComplete all pending work and save documents before 7:30 PM on October 16\nBack up critical files to designated secure servers by October 15\nUpdate your recovery phone number and email in the security portal\nInstall the latest version of our VPN client (v4.2.1) before October 14\n\nIMPROVEMENTS:\n\nEnhanced Authentication Measures:\narchitecture implementation\nBiometric verification options for sensitive systems\nConditional access policies based on device health and location\n\nDetection Upgrades:\nanomaly detection system\nReal-time threat intelligence integration\nExpanded monitoring of shadow IT resources\n\nEnhancements:\nGDPR and CCPA compliance checks\nImproved data classification system\nEnhanced audit logging and reporting capabilities\n\nRESOURCES:\n\nSecurity Team Hotline: Available 24/7 at 1-888-555-7890\nEmail Support: \nSelf-Service Portal: \n\nWe have scheduled department-specific training sessions on October 18-20 to cover the new security features and answer any questions. Your department head will share the exact schedule for your team.\n\nWe understand that security updates can sometimes cause temporary inconvenience, but these measures are critical to protecting our organization's data and infrastructure. We appreciate your cooperation in maintaining our strong security posture.\n\nThank you for your continued commitment to our security protocols.\n",
+      "model_info": {
+        "name": "gemini-1.5-flash-002",
+        "tokens": {
+          "input": 2596,
+          "output": 626,
+          "total": 3222
+        },
+        "cost": 0.000576,
+        "is_exact_count": false
+      },
+      "results": [
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "Annual Security Protocol Update"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "Email servers",
+                "cloud storage",
+                "VPN access",
+                "internal applications"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "Biometric verification"
+              ]
+            },
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "GDPR",
+                "CCPA"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "Security Team"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }

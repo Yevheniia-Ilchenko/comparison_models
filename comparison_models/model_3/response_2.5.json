@@ -1,0 +1,208 @@
+{
+  "status": "completed",
+  "message": {
+    "account_id": "security-team@company.com",
+    "entity_id": "all-employees@company.com",
+    "keywords_named_entities": [
+      "Sarah Johnson",
+      "audit logging",
+      "Security Team",
+      "sensitive information",
+      "CCPA",
+      "Real-time threat intelligence integration",
+      "shadow IT resources",
+      "data classification system",
+      "Chief Information Security Officer",
+      "company systems",
+      "AI-powered anomaly detection system",
+      "reporting capabilities",
+      "cybersecurity standards",
+      "GDPR",
+      "Company Name",
+      "security protocol update"
+    ],
+    "knots_from_section": [
+      [
+        "sensitive information",
+        "company systems",
+        "cybersecurity standards",
+        "security protocol update"
+      ],
+      [
+        "cloud storage",
+        "Email servers",
+        "VPN access",
+        "VPN client",
+        "internal applications"
+      ],
+      [
+        "Biometric verification",
+        "Conditional access policies",
+        "Multi-factor authentication"
+      ],
+      [
+        "AI-powered anomaly detection system",
+        "shadow IT resources",
+        "Real-time threat intelligence integration"
+      ],
+      [
+        "CCPA",
+        "data classification system",
+        "reporting capabilities",
+        "GDPR",
+        "audit logging"
+      ],
+      [
+        "Sarah Johnson",
+        "Security Team"
+      ]
+    ],
+    "knots_from_paragraph": [
+      [
+        "sensitive information",
+        "company systems",
+        "cybersecurity standards",
+        "security protocol update"
+      ],
+      [
+        "cloud storage",
+        "Email servers",
+        "VPN access",
+        "VPN client",
+        "internal applications"
+      ],
+      [
+        "Biometric verification",
+        "Conditional access policies",
+        "Multi-factor authentication"
+      ],
+      [
+        "AI-powered anomaly detection system",
+        "shadow IT resources",
+        "Real-time threat intelligence integration"
+      ],
+      [
+        "CCPA",
+        "data classification system",
+        "reporting capabilities",
+        "GDPR",
+        "audit logging"
+      ],
+      [
+        "Sarah Johnson",
+        "Security Team"
+      ],
+      [
+        "Company Name",
+        "Chief Information Security Officer"
+      ]
+    ],
+    "denoised_email": "Annual Security Protocol Update - 2023\n\nDear Team Members,\n\nWe are reaching out to inform you about the annual security protocol update that will be implemented across all company systems and devices. This update is essential to maintain our cybersecurity standards and protect sensitive information from emerging threats.\n\nUPDATE SCHEDULE:\nImplementation Date: Monday, October 16, 2023\nDeployment Time: 8:00 PM - 2:00 AM PST\nAffected Systems: Email servers, VPN access, cloud storage, and internal applications\nExpected Downtime: Maximum 4 hours per system (staggered implementation)\n\nACTIONS:\nComplete all pending work and save documents before 7:30 PM on October 16\nBack up critical files to designated secure servers by October 15\nUpdate your recovery phone number and email in the security portal\nInstall the latest version of our VPN client (v4.2.1) before October 14\n\nIMPROVEMENTS:\nEnhanced Authentication Measures:\nMulti-factor authentication upgrades\nBiometric verification options for sensitive systems\nConditional access policies based on device health and location\n\nDetection Upgrades:\nAI-powered anomaly detection system\nReal-time threat intelligence integration\nExpanded monitoring of shadow IT resources\n\nEnhancements:\nGDPR and CCPA compliance checks\nImproved data classification system\nEnhanced audit logging and reporting capabilities\n\nRESOURCES:\nSecurity Team Hotline: Available 24/7 at 1-888-555-7890\nEmail Support:\nSelf-Service Portal:\n\nWe have scheduled department-specific training sessions on October 18-20 to cover the new security features and answer any questions. Your department head will share the exact schedule for your team.\n\nWe understand that security updates can sometimes cause temporary inconvenience, but these measures are critical to protecting our organization's data and infrastructure. We appreciate your cooperation in maintaining our strong security posture.\n\nThank you for your continued commitment to our security protocols.\n\nBest regards,\n\nSarah Johnson\nChief Information Security Officer\nCompany Name",
+    "model_info": {
+      "name": "gemini-2.5-flash-lite-preview-06-17",
+      "tokens": {
+        "input": 3775,
+        "output": 879,
+        "total": 4654
+      },
+      "cost": 0.00073,
+      "is_exact_count": false
+    },
+    "results": [
+      {
+        "scopeName": "section",
+        "children": [
+          {
+            "scopeName": "paragraph",
+            "knots": [
+              "sensitive information",
+              "company systems",
+              "cybersecurity standards",
+              "security protocol update"
+            ]
+          }
+        ]
+      },
+      {
+        "scopeName": "section",
+        "children": [
+          {
+            "scopeName": "paragraph",
+            "knots": [
+              "cloud storage",
+              "Email servers",
+              "VPN access",
+              "VPN client",
+              "internal applications"
+            ]
+          }
+        ]
+      },
+      {
+        "scopeName": "section",
+        "children": [
+          {
+            "scopeName": "paragraph",
+            "knots": [
+              "Biometric verification",
+              "Conditional access policies",
+              "Multi-factor authentication"
+            ]
+          }
+        ]
+      },
+      {
+        "scopeName": "section",
+        "children": [
+          {
+            "scopeName": "paragraph",
+            "knots": [
+              "AI-powered anomaly detection system",
+              "shadow IT resources",
+              "Real-time threat intelligence integration"
+            ]
+          }
+        ]
+      },
+      {
+        "scopeName": "section",
+        "children": [
+          {
+            "scopeName": "paragraph",
+            "knots": [
+              "CCPA",
+              "data classification system",
+              "reporting capabilities",
+              "GDPR",
+              "audit logging"
+            ]
+          }
+        ]
+      },
+      {
+        "scopeName": "section",
+        "children": [
+          {
+            "scopeName": "paragraph",
+            "knots": [
+              "Sarah Johnson",
+              "Security Team"
+            ]
+          }
+        ]
+      },
+      {
+        "scopeName": "section",
+        "children": [
+          {
+            "scopeName": "paragraph",
+            "knots": [
+              "Company Name",
+              "Chief Information Security Officer"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+} 

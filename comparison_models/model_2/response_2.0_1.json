@@ -1,0 +1,227 @@
+{
+    "status": "completed",
+    "message": {
+      "account_id": "product-team@technova.com",
+      "entity_id": "all-product-team@technova.com",
+      "keywords_named_entities": [
+        "Q3",
+        "QA",
+        "Product Team",
+        "Product Management",
+        "Sales",
+        "Customer Success",
+        "web interface",
+        "engineering",
+        "2024",
+        "microservices architecture",
+        "Q4 2023",
+        "Product Development Roadmap",
+        "GraphQL API",
+        "React",
+        "AI",
+        "Database",
+        "product management system",
+        "Python",
+        "Design",
+        "mobile app",
+        "Friday"
+      ],
+      "knots_from_section": [
+        [
+          "Product Development Roadmap",
+          "Product Team",
+          "Q4 2023"
+        ],
+        [
+          "AI",
+          "microservices architecture"
+        ],
+        [
+          "mobile app"
+        ],
+        [
+          "QA",
+          "engineering",
+          "Product Management",
+          "Design"
+        ],
+        [
+          "Database",
+          "GraphQL API"
+        ],
+        [
+          "Sales",
+          "Customer Success"
+        ],
+        [
+          "product management system",
+          "Friday"
+        ],
+        [
+          "Q3",
+          "2024"
+        ]
+      ],
+      "knots_from_paragraph": [
+        [
+          "Product Development Roadmap",
+          "Product Team",
+          "Q4 2023"
+        ],
+        [
+          "AI"
+        ],
+        [
+          "microservices architecture"
+        ],
+        [
+          "QA",
+          "engineering",
+          "Product Management",
+          "Design"
+        ],
+        [
+          "mobile app",
+          "GraphQL API"
+        ],
+        [
+          "Database"
+        ],
+        [
+          "Sales",
+          "Customer Success"
+        ],
+        [
+          "product management system",
+          "Friday"
+        ],
+        [
+          "Q3",
+          "2024"
+        ]
+      ],
+      "denoised_email": "Product Development Roadmap - Q4 2023\n\nDear Product Team,\n\nI'm writing to share our updated product development roadmap for Q4 2023. This strategic plan outlines our key initiatives, milestones, and resource allocations for the upcoming quarter.\n\nROADMAP HIGHLIGHTS:\n\n*   New Feature Launch: AI-powered recommendation engine (October 30)\n*   Platform Migration: Legacy system to microservices architecture (November 15-20)\n*   Performance Optimization: 35% improvement in page load times (December 5)\n*   Mobile App Redesign: User experience overhaul based on customer feedback (December 15)\n\nALLOCATION:\n\n1.  Engineering: 65% feature development, 25% technical debt, 10% innovation time\n2.  Design: 40% mobile redesign, 30% web interface, 30% user research\n3.  QA: 50% automated testing expansion, 30% regression testing, 20% performance testing\n4.  Product Management: 45% feature specification, 30% customer interviews, 25% market analysis\n\nDEPENDENCIES:\n\n*   Technical Requirements: infrastructure scaling for recommendation engine\n*   GraphQL API implementation for mobile app integration\n*   Database sharding for improved query performance\n*   Collaboration: team alignment for feature announcements\n*   Customer Success training on new capabilities\n*   Sales enablement materials for enterprise clients\n*   Assessment: delay in third-party API integration (mitigation plan in place)\n*   Resource constraints during holiday season (additional contractors approved)\n*   Data migration complexity (extended testing period scheduled)\n\nSUCCESS CRITERIA:\n\n*   User engagement: 25% increase in daily active users\n*   Conversion rate: 15% improvement in trial-to-paid conversion\n*   Performance: 99.95% system uptime during peak periods\n*   Customer satisfaction: NPS improvement from 42 to 50\n\nscheduled weekly roadmap review meetings every Monday at 10:00 AM PT in the Product War Room. Please come prepared to discuss your team's progress and any blockers you're facing.\n\nThe detailed specifications for each initiative are available in our product management system. Please review the documents relevant to your workstreams and add any comments or questions by end of day Friday.\n\nI'm confident that with our collective expertise and dedication, we'll deliver exceptional value to our customers this quarter while positioning ourselves for continued growth in 2024.\n\nThank you for your commitment to our product vision.\n",
+      "model_info": {
+        "name": "gemini-2.0-flash-lite",
+        "tokens": {
+          "input": 3970,
+          "output": 928,
+          "total": 4898
+        },
+        "cost": 0.000557,
+        "is_exact_count": false
+      },
+      "results": [
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "Product Development Roadmap",
+                "Product Team",
+                "Q4 2023"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "AI"
+              ]
+            },
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "microservices architecture"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "mobile app",
+                "GraphQL API"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "QA",
+                "engineering",
+                "Product Management",
+                "Design"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "mobile app",
+                "GraphQL API"
+              ]
+            },
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "Database"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "Sales",
+                "Customer Success"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "product management system",
+                "Friday"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "Q3",
+                "2024"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
