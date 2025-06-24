@@ -107,7 +107,7 @@ if model1_data and model2_data and model3_data:
             st.write(f"Tokens: {m1['tokens']}, Cost: ${m1['cost']:.6f}")
             st.write(f"Knots: {len(m1['knots'])}")
             st.write(f"Entities count: {len(m1['entities'])}")
-            entities_list = ', '.join(list(m1['entities'])[:3])
+            entities_list = ', '.join(list(m1['entities']))
             st.markdown(f"Top 3 entities: <span style='color:red; font-weight:bold;'>{entities_list}</span>", unsafe_allow_html=True)
 
         with col2:
@@ -116,7 +116,7 @@ if model1_data and model2_data and model3_data:
             st.write(f"Tokens: {m2['tokens']}, Cost: ${m2['cost']:.6f}")
             st.write(f"Knots: {len(m2['knots'])}")
             st.write(f"Entities count: {len(m2['entities'])}")
-            entities_list = ', '.join(list(m2['entities'])[:3])
+            entities_list = ', '.join(list(m2['entities']))
             st.markdown(f"Top 3 entities: <span style='color:red; font-weight:bold;'>{entities_list}</span>", unsafe_allow_html=True)
 
         with col3:
@@ -125,7 +125,7 @@ if model1_data and model2_data and model3_data:
             st.write(f"Tokens: {m3['tokens']}, Cost: ${m3['cost']:.6f}")
             st.write(f"Knots: {len(m3['knots'])}")
             st.write(f"Entities count: {len(m3['entities'])}")
-            entities_list = ', '.join(list(m3['entities'])[:3])
+            entities_list = ', '.join(list(m3['entities']))
             st.markdown(f"Top 3 entities: <span style='color:red; font-weight:bold;'>{entities_list}</span>", unsafe_allow_html=True)
 
 
