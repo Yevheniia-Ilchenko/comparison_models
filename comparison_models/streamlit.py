@@ -15,6 +15,7 @@ MODEL_DIRS = {
 
 def load_json_files_from_dir(directory):
     files = [f for f in os.listdir(directory) if f.endswith(".json")]
+    files.sort()
     results = []
     for file in files:
         path = os.path.join(directory, file)
