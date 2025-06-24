@@ -1,0 +1,222 @@
+{
+    "status": "completed",
+    "message": {
+      "account_id": "investor-relations@nexustech.com",
+      "entity_id": "shareholders@distribution.com",
+      "keywords_named_entities": [
+        "Share repurchase program",
+        "institutional investors",
+        "Quarterly dividend",
+        "Upcoming Investor Day",
+        "Brazil",
+        "management team",
+        "GlobalTech Inc.",
+        "AI-enhanced analytics platform",
+        "Q2 2023",
+        "automated supply chain management system",
+        "predictive forecasting capabilities",
+        "Shareholders",
+        "fiscal year",
+        "Professional Services",
+        "Quarterly Financial Performance Review",
+        "Enterprise Solutions",
+        "quarterly earnings call",
+        "Consumer Products",
+        "analysts",
+        "UAE",
+        "Singapore"
+      ],
+      "knots_from_section": [
+        [
+          "Q2 2023",
+          "Quarterly Financial Performance Review",
+          "Shareholders"
+        ],
+        [
+          "Consumer Products",
+          "Enterprise Solutions",
+          "fiscal year",
+          "Professional Services"
+        ],
+        [
+          "UAE",
+          "GlobalTech Inc.",
+          "Brazil",
+          "Singapore"
+        ],
+        [
+          "predictive forecasting capabilities",
+          "AI-enhanced analytics platform",
+          "automated supply chain management system"
+        ],
+        [
+          "quarterly earnings call",
+          "institutional investors",
+          "Quarterly dividend",
+          "Upcoming Investor Day",
+          "analysts",
+          "Share repurchase program",
+          "management team"
+        ]
+      ],
+      "knots_from_paragraph": [
+        [
+          "Q2 2023",
+          "Quarterly Financial Performance Review",
+          "Shareholders"
+        ],
+        [
+          "fiscal year"
+        ],
+        [
+          "Consumer Products",
+          "Enterprise Solutions",
+          "Professional Services"
+        ],
+        [
+          "UAE",
+          "Brazil",
+          "Singapore"
+        ],
+        [
+          "GlobalTech Inc."
+        ],
+        [
+          "predictive forecasting capabilities",
+          "AI-enhanced analytics platform"
+        ],
+        [
+          "automated supply chain management system"
+        ],
+        [
+          "Quarterly dividend"
+        ],
+        [
+          "Share repurchase program"
+        ],
+        [
+          "Upcoming Investor Day"
+        ],
+        [
+          "management team",
+          "quarterly earnings call",
+          "analysts",
+          "institutional investors"
+        ]
+      ],
+      "denoised_email": "Quarterly Financial Performance Review - Q2 2023\n\nDear Shareholders,\n\nI am pleased to present our quarterly financial performance review for Q2 2023. This report provides a comprehensive overview of our financial results, key achievements, and strategic outlook for the remainder of the fiscal year.\n\nFINANCIAL HIGHLIGHTS:\n\nRevenue: $78.5 million (up 18% year-over-year)\nEBITDA: $24.3 million (31% margin, up 3 percentage points)\nOperating Cash Flow: $19.7 million (25% of revenue)\nNet Income: $15.2 million ($0.87 per share, exceeding analyst estimates)\n\nSEGMENT PERFORMANCE:\n\nEnterprise Solutions: $42.3 million revenue (54% of total, up 22% YoY)\nConsumer Products: $25.8 million revenue (33% of total, up 15% YoY)\nProfessional Services: $10.4 million revenue (13% of total, up 8% YoY)\n\nDEVELOPMENTS:\n\nMarket Expansion: entry into three new international markets (Singapore, UAE, and Brazil)\nLaunch of localized product offerings with 92% customer satisfaction ratings\nStrategic partnership with GlobalTech Inc. expanding our reach to enterprise clients\nInnovation: of AI-enhanced analytics platform with predictive forecasting capabilities\nPatent approval for proprietary data processing algorithm (Patent #US29384756)\nR&D investment increased to 14% of revenue (up from 12% in previous quarter)\nEfficiency: of automated supply chain management system reducing costs by 8%\nConsolidation of data centers resulting in 12% reduction in infrastructure expenses\nWorkforce optimization initiatives yielding $3.2 million in annualized savings\n\nRELATIONS UPDATES:\n\nQuarterly dividend of $0.32 per share (payable on August 15, 2023)\nShare repurchase program: $15 million authorized (40% completed this quarter)\nUpcoming Investor Day: September 22, 2023 at corporate headquarters\nwill be hosting our quarterly earnings call on July 28, 2023, at 2:00 PM EST. The management team will provide additional insights and answer questions from analysts and institutional investors. Registration details are available on our investor relations website.\n\nThe detailed financial statements, including balance sheet, income statement, and cash flow statement, are attached to this communication and available in the investor portal.\n\nWe remain committed to delivering sustainable growth and shareholder value through disciplined execution of our strategic initiatives and prudent capital allocation.\n",
+      "model_info": {
+        "name": "gemini-1.5-flash-002",
+        "tokens": {
+          "input": 4023,
+          "output": 1030,
+          "total": 5053
+        },
+        "cost": 0.000914,
+        "is_exact_count": false
+      },
+      "results": [
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "Q2 2023",
+                "Quarterly Financial Performance Review",
+                "Shareholders"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "fiscal year"
+              ]
+            },
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "Consumer Products",
+                "Enterprise Solutions",
+                "Professional Services"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "UAE",
+                "Brazil",
+                "Singapore"
+              ]
+            },
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "GlobalTech Inc."
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "predictive forecasting capabilities",
+                "AI-enhanced analytics platform"
+              ]
+            },
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "automated supply chain management system"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "Quarterly dividend"
+              ]
+            },
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "Share repurchase program"
+              ]
+            },
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "Upcoming Investor Day"
+              ]
+            },
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "management team",
+                "quarterly earnings call",
+                "analysts",
+                "institutional investors"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }

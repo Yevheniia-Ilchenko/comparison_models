@@ -1,0 +1,176 @@
+{
+    "status": "completed",
+    "message": {
+      "account_id": "investor-relations@nexustech.com",
+      "entity_id": "shareholders@distribution.com",
+      "keywords_named_entities": [
+        "GlobalTech Inc.",
+        "UAE",
+        "investor portal",
+        "balance sheet",
+        "data processing algorithm",
+        "Investor Day",
+        "Consumer Products",
+        "cash flow statement",
+        "fiscal year",
+        "Brazil",
+        "investor relations website",
+        "Singapore",
+        "income statement",
+        "Enterprise Solutions",
+        "automated supply chain management system",
+        "AI-enhanced analytics platform",
+        "Quarterly Financial Performance Review",
+        "predictive forecasting",
+        "Professional Services",
+        "Q2"
+      ],
+      "knots_from_section": [
+        [
+          "Q2",
+          "fiscal year",
+          "Quarterly Financial Performance Review"
+        ],
+        [
+          "Professional Services",
+          "Enterprise Solutions",
+          "Consumer Products"
+        ],
+        [
+          "Brazil",
+          "data processing algorithm",
+          "GlobalTech Inc.",
+          "predictive forecasting",
+          "Investor Day",
+          "Singapore",
+          "UAE",
+          "AI-enhanced analytics platform",
+          "automated supply chain management system"
+        ],
+        [
+          "investor relations website"
+        ],
+        [
+          "balance sheet",
+          "investor portal",
+          "income statement",
+          "cash flow statement"
+        ]
+      ],
+      "knots_from_paragraph": [
+        [
+          "Q2",
+          "fiscal year",
+          "Quarterly Financial Performance Review"
+        ],
+        [
+          "Professional Services",
+          "Enterprise Solutions",
+          "Consumer Products"
+        ],
+        [
+          "Brazil",
+          "data processing algorithm",
+          "GlobalTech Inc.",
+          "predictive forecasting",
+          "Investor Day",
+          "Singapore",
+          "UAE",
+          "AI-enhanced analytics platform",
+          "automated supply chain management system"
+        ],
+        [
+          "investor relations website"
+        ],
+        [
+          "balance sheet",
+          "investor portal",
+          "income statement",
+          "cash flow statement"
+        ]
+      ],
+      "denoised_email": "Quarterly Financial Performance Review - Q2 2023\n\nDear Shareholders,\n\nI am pleased to present our quarterly financial performance review for Q2 2023. This report provides a comprehensive overview of our financial results, key achievements, and strategic outlook for the remainder of the fiscal year.\n\nFINANCIAL HIGHLIGHTS:\n\n*   Revenue: $78.5 million (up 18% year-over-year)\n*   EBITDA: $24.3 million (31% margin, up 3 percentage points)\n*   Operating Cash Flow: $19.7 million (25% of revenue)\n*   Net Income: $15.2 million ($0.87 per share, exceeding analyst estimates)\n\nSEGMENT PERFORMANCE:\n\n1.  Enterprise Solutions: $42.3 million revenue (54% of total, up 22% YoY)\n2.  Consumer Products: $25.8 million revenue (33% of total, up 15% YoY)\n3.  Professional Services: $10.4 million revenue (13% of total, up 8% YoY)\n\nDEVELOPMENTS:\n\n*   Market Expansion: entry into three new international markets (Singapore, UAE, and Brazil)\n*   Launch of localized product offerings with 92% customer satisfaction ratings\n*   Strategic partnership with GlobalTech Inc. expanding our reach to enterprise clients\n*   Innovation: of AI-enhanced analytics platform with predictive forecasting capabilities\n*   Patent approval for proprietary data processing algorithm (Patent #US29384756)\n*   R&D investment increased to 14% of revenue (up from 12% in previous quarter)\n*   Efficiency: of automated supply chain management system reducing costs by 8%\n*   Consolidation of data centers resulting in 12% reduction in infrastructure expenses\n*   Workforce optimization initiatives yielding $3.2 million in annualized savings\n\nRELATIONS UPDATES:\n\n*   Quarterly dividend of $0.32 per share (payable on August 15, 2023)\n*   Share repurchase program: $15 million authorized (40% completed this quarter)\n*   Upcoming Investor Day: September 22, 2023 at corporate headquarters\n\nWe will be hosting our quarterly earnings call on July 28, 2023, at 2:00 PM EST. The management team will provide additional insights and answer questions from analysts and institutional investors. Registration details are available on our investor relations website.\n\nThe detailed financial statements, including balance sheet, income statement, and cash flow statement, are attached to this communication and available in the investor portal.\n\nWe remain committed to delivering sustainable growth and shareholder value through disciplined execution of our strategic initiatives and prudent capital allocation.\n",
+      "model_info": {
+        "name": "gemini-2.0-flash-lite",
+        "tokens": {
+          "input": 4058,
+          "output": 1013,
+          "total": 5071
+        },
+        "cost": 0.000588,
+        "is_exact_count": false
+      },
+      "results": [
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "Q2",
+                "fiscal year",
+                "Quarterly Financial Performance Review"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "Professional Services",
+                "Enterprise Solutions",
+                "Consumer Products"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "Brazil",
+                "data processing algorithm",
+                "GlobalTech Inc.",
+                "predictive forecasting",
+                "Investor Day",
+                "Singapore",
+                "UAE",
+                "AI-enhanced analytics platform",
+                "automated supply chain management system"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "investor relations website"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "balance sheet",
+                "investor portal",
+                "income statement",
+                "cash flow statement"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }

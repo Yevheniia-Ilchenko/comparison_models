@@ -1,0 +1,237 @@
+{
+    "status": "completed",
+    "message": {
+      "account_id": "investor-relations@nexustech.com",
+      "entity_id": "shareholders@distribution.com",
+      "keywords_named_entities": [
+        "shareholder value",
+        "Chief Financial Officer",
+        "Quarterly Financial Performance Review",
+        "data processing algorithm",
+        "Nexus Technologies Inc.",
+        "fiscal year",
+        "Singapore",
+        "previous quarter",
+        "investor portal",
+        "investor relations",
+        "balance sheet",
+        "Share repurchase program",
+        "Investor Day",
+        "cash flow statement",
+        "Enterprise Solutions",
+        "GlobalTech Inc.",
+        "earnings call",
+        "income statement",
+        "UAE",
+        "data centers",
+        "AI-enhanced analytics platform",
+        "Consumer Products",
+        "automated supply chain management system",
+        "Q2 2023",
+        "Quarterly dividend",
+        "financial statements",
+        "Professional Services",
+        "Brazil"
+      ],
+      "knots_from_section": [
+        [
+          "fiscal year",
+          "Quarterly Financial Performance Review",
+          "Q2 2023"
+        ],
+        [
+          "Consumer Products",
+          "Enterprise Solutions",
+          "Professional Services"
+        ],
+        [
+          "GlobalTech Inc.",
+          "UAE",
+          "data centers",
+          "AI-enhanced analytics platform",
+          "data processing algorithm",
+          "automated supply chain management system",
+          "previous quarter",
+          "Singapore",
+          "Brazil"
+        ],
+        [
+          "Share repurchase program",
+          "Investor Day",
+          "Quarterly dividend",
+          "earnings call"
+        ],
+        [
+          "investor relations",
+          "income statement",
+          "balance sheet",
+          "cash flow statement",
+          "financial statements",
+          "investor portal"
+        ],
+        [
+          "Nexus Technologies Inc.",
+          "shareholder value",
+          "Chief Financial Officer"
+        ]
+      ],
+      "knots_from_paragraph": [
+        [
+          "fiscal year",
+          "Quarterly Financial Performance Review",
+          "Q2 2023"
+        ],
+        [
+          "Consumer Products",
+          "Enterprise Solutions",
+          "Professional Services"
+        ],
+        [
+          "GlobalTech Inc.",
+          "UAE",
+          "data centers",
+          "AI-enhanced analytics platform",
+          "data processing algorithm",
+          "automated supply chain management system",
+          "previous quarter",
+          "Singapore",
+          "Brazil"
+        ],
+        [
+          "Share repurchase program",
+          "Investor Day",
+          "Quarterly dividend",
+          "earnings call"
+        ],
+        [
+          "investor relations"
+        ],
+        [
+          "income statement",
+          "balance sheet",
+          "cash flow statement",
+          "financial statements",
+          "investor portal"
+        ],
+        [
+          "shareholder value"
+        ],
+        [
+          "Nexus Technologies Inc.",
+          "Chief Financial Officer"
+        ]
+      ],
+      "denoised_email": "Quarterly Financial Performance Review - Q2 2023\n\nDear Shareholders,\n\nI am pleased to present our quarterly financial performance review for Q2 2023. This report provides a comprehensive overview of our financial results, key achievements, and strategic outlook for the remainder of the fiscal year.\n\nFINANCIAL HIGHLIGHTS:\nRevenue: $78.5 million (up 18% year-over-year)\nEBITDA: $24.3 million (31% margin, up 3 percentage points)\nOperating Cash Flow: $19.7 million (25% of revenue)\nNet Income: $15.2 million ($0.87 per share, exceeding analyst estimates)\n\nSEGMENT PERFORMANCE:\nEnterprise Solutions: $42.3 million revenue (54% of total, up 22% YoY)\nConsumer Products: $25.8 million revenue (33% of total, up 15% YoY)\nProfessional Services: $10.4 million revenue (13% of total, up 8% YoY)\n\nDEVELOPMENTS:\nMarket Expansion:\nentry into three new international markets (Singapore, UAE, and Brazil)\nLaunch of localized product offerings with 92% customer satisfaction ratings\nStrategic partnership with GlobalTech Inc. expanding our reach to enterprise clients\n\nInnovation:\nof AI-enhanced analytics platform with predictive forecasting capabilities\nPatent approval for proprietary data processing algorithm (Patent #US29384756)\nR&D investment increased to 14% of revenue (up from 12% in previous quarter)\n\nEfficiency:\nof automated supply chain management system reducing costs by 8%\nConsolidation of data centers resulting in 12% reduction in infrastructure expenses\nWorkforce optimization initiatives yielding $3.2 million in annualized savings\n\nRELATIONS UPDATES:\nQuarterly dividend of $0.32 per share (payable on August 15, 2023)\nShare repurchase program: $15 million authorized (40% completed this quarter)\nUpcoming Investor Day: September 22, 2023 at corporate headquarters\n\nwill be hosting our quarterly earnings call on July 28, 2023, at 2:00 PM EST. The management team will provide additional insights and answer questions from analysts and institutional investors. Registration details are available on our investor relations website.\n\nThe detailed financial statements, including balance sheet, income statement, and cash flow statement, are attached to this communication and available in the investor portal.\n\nWe remain committed to delivering sustainable growth and shareholder value through disciplined execution of our strategic initiatives and prudent capital allocation.\n\nThank you for your continued trust and investment in our company.\n\nMorgan\nChief Financial Officer\nNexus Technologies Inc.",
+      "model_info": {
+        "name": "gemini-2.5-flash-lite-preview-06-17",
+        "tokens": {
+          "input": 4046,
+          "output": 1164,
+          "total": 5210
+        },
+        "cost": 0.000871,
+        "is_exact_count": false
+      },
+      "results": [
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "fiscal year",
+                "Quarterly Financial Performance Review",
+                "Q2 2023"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "Consumer Products",
+                "Enterprise Solutions",
+                "Professional Services"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "GlobalTech Inc.",
+                "UAE",
+                "data centers",
+                "AI-enhanced analytics platform",
+                "data processing algorithm",
+                "automated supply chain management system",
+                "previous quarter",
+                "Singapore",
+                "Brazil"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "Share repurchase program",
+                "Investor Day",
+                "Quarterly dividend",
+                "earnings call"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "investor relations"
+              ]
+            },
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "income statement",
+                "balance sheet",
+                "cash flow statement",
+                "financial statements",
+                "investor portal"
+              ]
+            }
+          ]
+        },
+        {
+          "scopeName": "section",
+          "children": [
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "shareholder value"
+              ]
+            },
+            {
+              "scopeName": "paragraph",
+              "knots": [
+                "Nexus Technologies Inc.",
+                "Chief Financial Officer"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+  
